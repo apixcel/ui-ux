@@ -30,8 +30,8 @@ const CustomerReviews = () => {
               </div>
             </div>
             <p className="text-muted-foreground">
-              "The service was fantastic and the team was very responsive. I
-              highly recommend this company."
+              `The service was fantastic and the team was very responsive. I
+              highly recommend this company.`
             </p>
             <div className="flex items-center mt-4">
               <StarIcon className="w-5 h-5 fill-primary" />
@@ -55,8 +55,8 @@ const CustomerReviews = () => {
               </div>
             </div>
             <p className="text-muted-foreground">
-              "I was impressed with the attention to detail and the quality of
-              the work. I will definitely use this company again."
+              `I was impressed with the attention to detail and the quality of
+              the work. I will definitely use this company again.`
             </p>
             <div className="flex items-center mt-4">
               <StarIcon className="w-5 h-5 fill-primary" />
@@ -80,8 +80,8 @@ const CustomerReviews = () => {
               </div>
             </div>
             <p className="text-muted-foreground">
-              "I was hesitant at first, but the team went above and beyond to
-              ensure I was satisfied. I'm so glad I chose this company."
+              `I was hesitant at first, but the team went above and beyond to
+              ensure I was satisfied. I&apos;m so glad I chose this company.`
             </p>
             <div className="flex items-center mt-4">
               <StarIcon className="w-5 h-5 fill-primary" />
@@ -103,8 +103,8 @@ const CustomerReviews = () => {
               </div>
             </div>
             <p className="text-muted-foreground">
-              "The service was fantastic and the team was very responsive. I
-              highly recommend this company."
+              `The service was fantastic and the team was very responsive. I
+              highly recommend this company.`
             </p>
             <div className="flex items-center mt-4">
               <StarIcon className="w-5 h-5 fill-primary" />
@@ -128,8 +128,8 @@ const CustomerReviews = () => {
               </div>
             </div>
             <p className="text-muted-foreground">
-              "I was impressed with the attention to detail and the quality of
-              the work. I will definitely use this company again."
+              `I was impressed with the attention to detail and the quality of
+              the work. I will definitely use this company again.`
             </p>
             <div className="flex items-center mt-4">
               <StarIcon className="w-5 h-5 fill-primary" />
@@ -153,8 +153,8 @@ const CustomerReviews = () => {
               </div>
             </div>
             <p className="text-muted-foreground">
-              "I was hesitant at first, but the team went above and beyond to
-              ensure I was satisfied. I'm so glad I chose this company."
+              `I was hesitant at first, but the team went above and beyond to
+              ensure I was satisfied. I&apos;m so glad I chose this company.`
             </p>
             <div className="flex items-center mt-4">
               <StarIcon className="w-5 h-5 fill-primary" />
