@@ -14,9 +14,9 @@ const Header = () => {
           location === "/" && "text-white"
         } container mx-auto flex justify-between items-center`}
       >
-        <a href="/" className="text-xl font-bold">
+        <Link href="/" className="text-xl font-bold">
           DesignSolutions
-        </a>
+        </Link>
         <nav className="hidden md:block">
           <ul className="flex space-x-4">
             <li>
