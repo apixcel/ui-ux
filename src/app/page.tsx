@@ -1,18 +1,25 @@
-import Banner from "@/components/home/Banner";
-import ContactSection from "@/components/home/ContactSection";
-import CustomerReviews from "@/components/home/CustomerReviews";
-import Demos from "@/components/home/Demos";
-import DiscussPanel from "@/components/home/DiscussPanel";
+import AboutUs from "@/components/home/new/AboutUs";
+import Banner from "@/components/home/new/Banner";
+import Faq from "@/components/home/new/Faq";
+import LastestNews from "@/components/home/new/LastestNews";
+import OurServices from "@/components/home/new/OurServices";
+import ProjectShowcase from "@/components/home/new/ProjectShowcase";
+import Testimonial from "@/components/home/new/Testimonial";
+import WorkProcess from "@/components/home/new/WorkProcess";
+// import GlobalBrands from "@/components/home/new/GlobalBrands";
 
 const Home = () => {
   return (
     <main>
-      <div className="absolute -z-10 top-0 left-0 w-full bg-[url('/images/background.jpg')] bg-cover bg-center h-screen"></div>
       <Banner />
-      <ContactSection />
-      <DiscussPanel />
-      <Demos />
-      <CustomerReviews />
+      <WorkProcess />
+      <AboutUs />
+      <OurServices />
+      <Faq />
+      <Testimonial />
+      <ProjectShowcase />
+      <LastestNews />
+      {/* <GlobalBrands /> */}
     </main>
   );
 };

@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { AlignJustify } from "lucide-react";
 import Link from "next/link";
+import { links } from "./Header";
 
 const Dropdown = () => {
   return (
@@ -15,15 +16,11 @@ const Dropdown = () => {
           <AlignJustify />
         </DropdownMenuTrigger>
         <DropdownMenuContent>
-          <DropdownMenuItem>
-            <Link href="/features">Features</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href="/services">Services</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href="/contact">Contact</Link>
-          </DropdownMenuItem>
+          {links.map((link, idx) => (
+            <DropdownMenuItem key={idx}>
+              <Link href={link.path}>{link.name}</Link>
+            </DropdownMenuItem>
+          ))}
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

@@ -5,9 +5,9 @@ const Footer = () => {
     <footer className="bg-slate-950 text-white py-12 px-6">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-start space-y-4">
-          <h3 className="text-lg font-bold">About</h3>
+          <h3 className="text-lg font-bold">DesignSolution</h3>
           <p>Learn more about our company and our mission.</p>
-          <Link href="/" className="text-primary hover:underline">
+          <Link href="/" className="hover:underline">
             Read More
           </Link>
         </div>
@@ -15,18 +15,18 @@ const Footer = () => {
           <h3 className="text-lg font-bold">Services</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/" className="hover:underline">
-                Web Design
+              <Link href="/services" className="hover:underline">
+                Services
               </Link>
             </li>
             <li>
-              <Link href="/" className="hover:underline">
-                Web Development
+              <Link href="/project-showcase" className="hover:underline">
+                Projects
               </Link>
             </li>
             <li>
-              <Link href="/" className="hover:underline">
-                Digital Marketing
+              <Link href="/pricing" className="hover:underline">
+                Pricing
               </Link>
             </li>
           </ul>
@@ -35,11 +35,8 @@ const Footer = () => {
           <h3 className="text-lg font-bold">Contact</h3>
           <p>Get in touch with us for more information.</p>
           <div className="flex space-x-4">
-            <Link href="/" className="text-primary hover:underline">
-              Email
-            </Link>
-            <Link href="/" className="text-primary hover:underline">
-              Phone
+            <Link href="/contact" className="hover:underline">
+              Contact
             </Link>
           </div>
         </div>
@@ -49,18 +46,13 @@ const Footer = () => {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <Link href="/" className="hover:underline">
+              <Link href="/privacy-policy" className="hover:underline">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/" className="hover:underline">
+              <Link href="/terms" className="hover:underline">
                 Terms of Service
-              </Link>
-            </li>
-            <li>
-              <Link href="/" className="hover:underline">
-                Contact Us
               </Link>
             </li>
           </ul>
