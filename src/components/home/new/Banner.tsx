@@ -34,13 +34,13 @@ const Banner = () => {
           className="invisible lg:visible absolute -z-10 bottom-0 left-0"
         />
         <div className="text-center lg:text-left">
-          <h4 className="px-5 text-2xl lg:text-6xl font-bold tracking-wide lg:-mb-10">
+          <h4 className="px-5 text-2xl lg:text-6xl font-bold tracking-wide lg:-mb-5">
             Transforming
           </h4>
           <h1 className="text-5xl lg:text-[10rem] font-bold inline-block my-4 px-5 bg-gradient-to-r from-transparent to-violet-800">
             Visions into
           </h1>
-          <h2 className="px-5 text-2xl lg:text-6xl font-semibold lg:-mt-16">
+          <h2 className="px-5 text-2xl lg:text-6xl font-semibold lg:-mt-8">
             Digital Reality
           </h2>
         </div>

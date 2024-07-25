@@ -7,7 +7,7 @@ export default function Pricing() {
       <div className="overflow-x-auto">
         <table className="w-full table-auto">
           <thead>
-            <tr className="bg-muted text-muted-foreground">
+            <tr className="bg-slate-800">
               <th className="px-4 py-3 text-left font-medium">Service</th>
               <th className="px-4 py-3 text-left font-medium">Description</th>
               <th className="px-4 py-3 text-right font-medium">Silver</th>
